@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Chloe-suyeon/glowmom/static/css/main.02531073.css",
+    "main.js": "/Chloe-suyeon/glowmom/static/js/main.e6569f0c.js",
+    "static/js/453.587d844b.chunk.js": "/Chloe-suyeon/glowmom/static/js/453.587d844b.chunk.js",
+    "index.html": "/Chloe-suyeon/glowmom/index.html",
+    "main.02531073.css.map": "/Chloe-suyeon/glowmom/static/css/main.02531073.css.map",
+    "main.e6569f0c.js.map": "/Chloe-suyeon/glowmom/static/js/main.e6569f0c.js.map",
+    "453.587d844b.chunk.js.map": "/Chloe-suyeon/glowmom/static/js/453.587d844b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02531073.css",
+    "static/js/main.e6569f0c.js"
+  ]
+}
