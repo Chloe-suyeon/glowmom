@@ -1,0 +1,713 @@
+.community {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 1755px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 10px;
+    color: #383838;
+    font-family: Inter;
+}
+
+
+.post {
+    position: absolute;
+    top: 578px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 24px;
+    display: inline-block;
+    width: 345px;
+    height: 48px;
+    color: #191919;
+}
+.seeMore {
+    font-weight: 600;
+    color: #6c6c6c;
+}
+.communityPost {
+    position: absolute;
+    top: 975px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 24px;
+    display: inline-block;
+    width: 345px;
+    height: 48px;
+    color: #191919;
+}
+.communitySeeMore {
+    color: #6c6c6c;
+}
+.post2 {
+    position: absolute;
+    top: 1378px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 24px;
+    display: inline-block;
+    width: 345px;
+    height: 48px;
+    color: #191919;
+}
+.tag {
+    position: absolute;
+    top: 554px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 24px;
+    color: #3f50e9;
+}
+.communityTag {
+    position: absolute;
+    top: 951px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 24px;
+    color: #3f50e9;
+}
+.tag2 {
+    position: absolute;
+    top: 1354px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 24px;
+    color: #3f50e9;
+}
+.username {
+    position: absolute;
+    top: 502px;
+    left: calc(50% - 116.5px);
+    font-size: 14px;
+    font-weight: 600;
+}
+.communityUsername {
+    position: absolute;
+    top: 899px;
+    left: calc(50% - 116.5px);
+    font-size: 14px;
+    font-weight: 600;
+}
+.username2 {
+    position: absolute;
+    top: 1302px;
+    left: calc(50% - 116.5px);
+    font-size: 14px;
+    font-weight: 600;
+}
+.timestamp {
+    position: absolute;
+    top: calc(50% - 354.5px);
+    left: calc(50% - 116.5px);
+}
+.communityTimestamp {
+    position: absolute;
+    top: calc(50% + 42.5px);
+    left: calc(50% - 116.5px);
+}
+.timestamp2 {
+    position: absolute;
+    top: calc(50% + 445.5px);
+    left: calc(50% - 116.5px);
+}
+.comments {
+    position: absolute;
+    top: calc(50% - 45.5px);
+    left: calc(50% + 52.5px);
+}
+.communityComments {
+    position: absolute;
+    top: calc(50% + 351.5px);
+    left: calc(50% + 52.5px);
+}
+.comments2 {
+    position: absolute;
+    top: calc(50% + 754.5px);
+    left: calc(50% + 52.5px);
+}
+.views {
+    position: absolute;
+    top: calc(50% - 45.5px);
+    left: calc(50% + 126.5px);
+}
+.communityViews {
+    position: absolute;
+    top: calc(50% + 351.5px);
+    left: calc(50% + 126.5px);
+}
+.views2 {
+    position: absolute;
+    top: calc(50% + 754.5px);
+    left: calc(50% + 126.5px);
+}
+.communityChild {
+    position: absolute;
+    top: 496px;
+    left: 24px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+}
+.communityItem {
+    position: absolute;
+    top: 893px;
+    left: 24px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+}
+.communityInner {
+    position: absolute;
+    top: 1296px;
+    left: 24px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+}
+.imageIcon {
+    position: absolute;
+    top: 635px;
+    left: 24px;
+    width: 345px;
+    height: 179px;
+    object-fit: cover;
+}
+.communityImageIcon {
+    position: absolute;
+    top: 1032px;
+    left: 24px;
+    width: 345px;
+    height: 179px;
+    object-fit: cover;
+}
+.imageIcon2 {
+    position: absolute;
+    top: 1435px;
+    left: 24px;
+    width: 345px;
+    height: 179px;
+    object-fit: cover;
+}
+.divider {
+    position: absolute;
+    top: 866px;
+    left: 0px;
+    background-color: #f2f2f2;
+    width: 393px;
+    height: 5px;
+}
+.communityDivider {
+    position: absolute;
+    top: 1263px;
+    left: 0px;
+    background-color: #f2f2f2;
+    width: 393px;
+    height: 5px;
+}
+.icon {
+    position: absolute;
+    top: 826px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+}
+.communityIcon {
+    position: absolute;
+    top: 1223px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+}
+.icon2 {
+    position: absolute;
+    top: 1626px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+}
+.icon3 {
+    position: absolute;
+    top: 826px;
+    left: 56px;
+    width: 24px;
+    height: 24px;
+}
+.icon4 {
+    position: absolute;
+    top: 1223px;
+    left: 56px;
+    width: 24px;
+    height: 24px;
+}
+.icon5 {
+    position: absolute;
+    top: 1626px;
+    left: 56px;
+    width: 24px;
+    height: 24px;
+}
+.vectorIcon {
+    position: absolute;
+    top: 1226px;
+    left: 25.5px;
+    width: 20px;
+    height: 18px;
+}
+.communityCommunityChild {
+    position: absolute;
+    top: 1629px;
+    left: 25.5px;
+    width: 20px;
+    height: 18px;
+}
+.container {
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    width: 393px;
+    height: 64px;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+}
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 393px;
+    height: 64px;
+}
+.title {
+    position: absolute;
+    top: 22px;
+    left: calc(50% - 42.5px);
+    line-height: 28px;
+}
+.icon6 {
+    position: absolute;
+    top: 24px;
+    left: 345px;
+    width: 24px;
+    height: 24px;
+}
+.communityContainer {
+    position: absolute;
+    top: 325px;
+    left: 0px;
+    width: 393px;
+    height: 156px;
+    overflow: hidden;
+    color: #000;
+}
+.container2 {
+    position: absolute;
+    top: -8px;
+    left: 0px;
+    width: 393px;
+    height: 164px;
+}
+.communityBackground {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 393px;
+    height: 164px;
+}
+.label {
+    position: absolute;
+    top: 129px;
+    left: 31px;
+    font-weight: 600;
+}
+.communityLabel {
+    position: absolute;
+    top: 129px;
+    left: 102px;
+    font-weight: 600;
+}
+.label2 {
+    position: absolute;
+    top: 129px;
+    left: 183px;
+    font-weight: 600;
+}
+.label3 {
+    position: absolute;
+    top: 129px;
+    left: 252px;
+    font-weight: 600;
+}
+.label4 {
+    position: absolute;
+    top: 129px;
+    left: 319px;
+    font-weight: 600;
+}
+.icon7 {
+    position: absolute;
+    top: 85px;
+    left: 180px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.icon8 {
+    position: absolute;
+    top: 85px;
+    left: 325px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.icon9 {
+    position: absolute;
+    top: 87px;
+    left: 255px;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.icon10 {
+    position: absolute;
+    top: 85px;
+    left: 34px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+}
+.icon11 {
+    position: absolute;
+    top: 84px;
+    left: 106px;
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+}
+.background2 {
+    position: absolute;
+    top: 108px;
+    left: 0px;
+    background-color: #fff0b0;
+    width: 393px;
+    height: 269px;
+}
+.communityTitle {
+    position: absolute;
+    top: 131px;
+    left: calc(50% - 172.5px);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #303030;
+}
+.subtitle {
+    position: absolute;
+    top: 161px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #615b41;
+}
+.container3 {
+    position: absolute;
+    top: 131px;
+    left: calc(50% + 104.5px);
+    width: 68px;
+    height: 28px;
+    font-size: 12px;
+    color: #686451;
+}
+.viewMore {
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 34px);
+    line-height: 28px;
+    font-weight: 500;
+}
+.vectorStrokeIcon {
+    position: absolute;
+    height: 25%;
+    width: 5.88%;
+    top: 39.29%;
+    right: 0%;
+    bottom: 35.71%;
+    left: 94.12%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.container4 {
+    position: absolute;
+    top: 207px;
+    left: 0px;
+    width: 393px;
+    height: 147px;
+    overflow-x: auto;
+    overflow-y:hidden;
+    font-size: 12px;
+    color: #494949;
+}
+.card {
+    position: absolute;
+    top: 0px;
+    left: 24px;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 231px;
+    height: 147px;
+}
+.communityCard {
+    position: absolute;
+    top: 0px;
+    left: 263px;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 231px;
+    height: 147px;
+}
+.card2 {
+    position: absolute;
+    top: 0px;
+    left: 503px;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 231px;
+    height: 147px;
+}
+.card3 {
+    position: absolute;
+    top: 0px;
+    left: 743px;
+    border-radius: 8px;
+    background-color: #fff;
+    width: 231px;
+    height: 147px;
+}
+.containerChild {
+    position: absolute;
+    top: 104px;
+    left: 279px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.containerItem {
+    position: absolute;
+    top: 104px;
+    left: 41px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.author {
+    position: absolute;
+    top: 104px;
+    left: calc(50% + 121.5px);
+    line-height: 28px;
+}
+.containerInner {
+    position: absolute;
+    top: 104px;
+    left: 519px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.ellipseIcon {
+    position: absolute;
+    top: 104px;
+    left: 759px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.title2 {
+    position: absolute;
+    top: 16px;
+    left: 279px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #212020;
+    display: inline-block;
+    width: 199px;
+    height: 62px;
+}
+.communityAuthor {
+    position: absolute;
+    top: 104px;
+    left: calc(50% - 116.5px);
+    line-height: 28px;
+}
+.author2 {
+    position: absolute;
+    top: 104px;
+    left: calc(50% + 361.5px);
+    line-height: 28px;
+}
+.author3 {
+    position: absolute;
+    top: 104px;
+    left: calc(50% + 601.5px);
+    line-height: 28px;
+}
+.title3 {
+    position: absolute;
+    top: 16px;
+    left: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #212020;
+    display: inline-block;
+    width: 199px;
+    height: 62px;
+}
+.title4 {
+    position: absolute;
+    top: 16px;
+    left: 519px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #212020;
+    display: inline-block;
+    width: 199px;
+    height: 62px;
+}
+.title5 {
+    position: absolute;
+    top: 16px;
+    left: 759px;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #212020;
+    display: inline-block;
+    width: 199px;
+    height: 62px;
+}
+.containerIcon {
+    position: fixed;     /* now it stays in place */
+    bottom: 80px;        /* distance from bottom of screen */
+    right: 20px;         /* distance from right edge */
+    width: 63px;
+    height: 63px;
+    cursor: pointer;
+    z-index: 2000;       /* keeps it above other elements */
+  }
+.statusBar {
+    position: fixed;
+    background-color: #ffffff;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 44px;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family: 'SF Pro Text';
+}
+.frameIcon {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 14px;
+    width: 68px;
+    height: 14px;
+    object-fit: cover;
+}
+.action {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 20.96px;
+    width: 54px;
+    height: 18px;
+}
+.time {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 0px;
+    letter-spacing: -0.17px;
+    font-weight: 600;
+    display: inline-block;
+    width: 54px;
+}
+.container5 {
+    position: fixed;       /* stays at bottom */
+    bottom: 0;             /* lock to bottom */
+    left: 0;
+    width: 100%;           /* full width */
+    height: 60px;          /* adjust to your design */
+    background-color: #fff;
+    border-top: 1px solid #ddd; /* subtle divider */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;         /* stay above content */
+}
+
+.icon12 {
+    position: absolute;
+    top: 27px;
+    left: 138px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.icon13 {
+    position: absolute;
+    top: 27px;
+    left: 232px;
+    width: 24px;
+    height: 24px;
+}
+.home {
+    position: absolute;
+    top: 27px;
+    left: 44px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.icon14 {
+    position: absolute;
+    height: 83.33%;
+    width: 75%;
+    top: 8.33%;
+    right: 12.5%;
+    bottom: 8.33%;
+    left: 12.5%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.icon15 {
+    position: absolute;
+    top: 27px;
+    left: 326px;
+    width: 24px;
+    height: 24px;
+}
+.divider2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #f2f2f2;
+    width: 393px;
+    height: 1px;
+}
+

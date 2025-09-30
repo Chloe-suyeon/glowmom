@@ -1,0 +1,491 @@
+.post {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    font-family: Inter;
+}
+.container {
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    width: 393px;
+    height: 64px;
+}
+.background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    width: 393px;
+    height: 64px;
+}
+.createPost {
+    position: absolute;
+    top: 22px;
+    left: calc(50% - 42.5px);
+    line-height: 28px;
+}
+.post2 {
+    position: absolute;
+    top: 22px;
+    left: calc(50% + 140.5px);
+    line-height: 28px;
+    color: #3f50e9;
+    cursor: pointer;
+}
+.lixIcon {
+    position: absolute;
+    top: 68px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.mypancakeParent {
+    position: absolute;
+    top: 138px;
+    left: calc(50% - 172.5px);
+    width: 135px;
+    height: 46px;
+    text-align: left;
+    font-size: 14px;
+    color: #383838;
+}
+.mypancake {
+    position: absolute;
+    top: 14px;
+    left: calc(50% - 11.5px);
+    font-weight: 600;
+}
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+}
+.whatsOnYour {
+    position: absolute;
+    top: 212px;
+    left: calc(50% - 172.5px);
+    font-size: 12px;
+    line-height: 24px;
+    color: #9b9b9b;
+    text-align: left;
+    display: inline-block;
+    width: 345px;
+    height: 48px;
+    cursor: pointer;
+}
+.image {
+    position: absolute;
+    top: 108px;
+    left: 0px;
+    background-color: #f2f2f2;
+    width: 393px;
+    height: 1px;
+}
+.postChild {
+    position: absolute;
+    top: 145px;
+    left: 279px;
+    border-radius: 4px;
+    background-color: #e7e5ff;
+    width: 90px;
+    height: 31px;
+}
+.postItem {
+    position: absolute;
+    top: 159px;
+    left: 355px;
+    width: 6px;
+    height: 4px;
+    object-fit: contain;
+}
+.category {
+    position: absolute;
+    top: 147px;
+    left: calc(50% + 96.5px);
+    font-size: 12px;
+    line-height: 28px;
+    color: #3f50e9;
+}
+.licameraIcon {
+    position: absolute;
+    top: 501px;
+    left: 39px;
+    width: 24px;
+    height: 24px;
+}
+.iphoneXsKeyboardsDefaul {
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    bottom: 0px;
+    left: 0%;
+    background-color: #fff;
+    height: 291px;
+    font-size: 23px;
+    font-family: 'SF Pro Display';
+}
+.backgroundsKeyboardsGray {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.keys {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    bottom: 75px;
+    left: 0px;
+    height: 52px;
+    font-size: 16px;
+    font-family: 'SF Pro Text';
+}
+.symbols {
+    position: absolute;
+    bottom: 5px;
+    left: 3px;
+    width: 87.8px;
+    height: 42px;
+}
+.postBackground {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    background-color: #c6ccd2;
+    width: 87.8px;
+    height: 42px;
+}
+.div {
+    position: absolute;
+    bottom: 10px;
+    left: 29.88px;
+    letter-spacing: -0.32px;
+    display: inline-block;
+    width: 27px;
+}
+.space {
+    position: absolute;
+    width: calc(100% - 190.5px);
+    right: 94.76px;
+    bottom: 5px;
+    left: 95.74px;
+    height: 42px;
+}
+.background2 {
+    position: absolute;
+    width: 100%;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    background-color: #fff;
+    height: 42px;
+}
+.postSpace {
+    position: absolute;
+    width: calc(100% - 139.6px);
+    bottom: 11px;
+    left: 69.81px;
+    letter-spacing: -0.32px;
+    display: inline-block;
+}
+.button {
+    position: absolute;
+    right: 3px;
+    bottom: 5px;
+    width: 87px;
+    height: 42px;
+}
+.background3 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    background-color: #c6ccd2;
+    width: 87px;
+    height: 42px;
+}
+.label {
+    position: absolute;
+    right: 7px;
+    bottom: 11px;
+    letter-spacing: -0.32px;
+    display: inline-block;
+    width: 72px;
+}
+.emojiGlyphIcon {
+    position: relative;
+    width: 27px;
+    height: 27px;
+}
+.dictationGlyphIcon {
+    position: relative;
+    width: 15px;
+    height: 25px;
+}
+.firstRow {
+    position: absolute;
+    width: 98.4%;
+    right: 0.8%;
+    bottom: 240px;
+    left: 0.8%;
+    height: 42px;
+    color: #191919;
+}
+.backgroundIcon {
+    position: relative;
+    width: 33.5px;
+    height: 42px;
+}
+.p {
+    position: absolute;
+    bottom: 7px;
+    left: 93.77%;
+}
+.o {
+    position: absolute;
+    bottom: 7px;
+    left: 83.34%;
+}
+.i {
+    position: absolute;
+    bottom: 7px;
+    left: 74.53%;
+}
+.u {
+    position: absolute;
+    bottom: 7px;
+    left: 63.01%;
+}
+.y {
+    position: absolute;
+    bottom: 7px;
+    left: 52.98%;
+}
+.t {
+    position: absolute;
+    bottom: 7px;
+    left: 43.09%;
+}
+.r {
+    position: absolute;
+    bottom: 7px;
+    left: 32.79%;
+}
+.e {
+    position: absolute;
+    bottom: 7px;
+    left: 22.9%;
+}
+.w {
+    position: absolute;
+    bottom: 7px;
+    left: 11.38%;
+}
+.q {
+    position: absolute;
+    bottom: 7px;
+    left: 2.03%;
+}
+.secondRow {
+    position: absolute;
+    width: 88.8%;
+    right: 5.6%;
+    bottom: 186px;
+    left: 5.6%;
+    height: 42px;
+    color: #191919;
+}
+.l {
+    position: absolute;
+    bottom: 6.75px;
+    left: 93.24%;
+}
+.k {
+    position: absolute;
+    bottom: 6.75px;
+    left: 81.53%;
+}
+.j {
+    position: absolute;
+    bottom: 6.75px;
+    left: 70.87%;
+}
+.h {
+    position: absolute;
+    bottom: 6.75px;
+    left: 58.71%;
+}
+.g {
+    position: absolute;
+    bottom: 6.75px;
+    left: 47.6%;
+}
+.f {
+    position: absolute;
+    bottom: 6.75px;
+    left: 36.79%;
+}
+.d {
+    position: absolute;
+    bottom: 6.75px;
+    left: 24.92%;
+}
+.s {
+    position: absolute;
+    bottom: 6.75px;
+    left: 14.11%;
+}
+.a {
+    position: absolute;
+    bottom: 6.75px;
+    left: 2.55%;
+}
+.thirdRow {
+    position: absolute;
+    width: 98.4%;
+    right: 0.8%;
+    bottom: 132px;
+    left: 0.8%;
+    height: 42px;
+}
+.keyboardsShift {
+    position: absolute;
+    width: 11.12%;
+    right: 88.88%;
+    bottom: 0px;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 42px;
+    object-fit: cover;
+}
+.m {
+    position: absolute;
+    bottom: 6.75px;
+    left: 77.78%;
+}
+.n {
+    position: absolute;
+    bottom: 6.75px;
+    left: 68.16%;
+}
+.b {
+    position: absolute;
+    bottom: 6.75px;
+    left: 58.27%;
+}
+.v {
+    position: absolute;
+    bottom: 6.75px;
+    left: 48.12%;
+}
+.c {
+    position: absolute;
+    bottom: 6.75px;
+    left: 37.67%;
+}
+.x {
+    position: absolute;
+    bottom: 6.75px;
+    left: 27.78%;
+}
+.z {
+    position: absolute;
+    bottom: 6.75px;
+    left: 17.48%;
+}
+.keyboardsDelete {
+    position: absolute;
+    width: 11.38%;
+    right: 0%;
+    bottom: 0px;
+    left: 88.62%;
+    max-width: 100%;
+    overflow: hidden;
+    height: 42px;
+    object-fit: cover;
+}
+.postInner {
+    position: absolute;
+    top: 473px;
+    left: 11px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+}
+.rectangleDiv {
+    position: absolute;
+    top: 473px;
+    left: 97px;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+.liimageMinusIcon {
+    position: absolute;
+    top: 501px;
+    left: 125px;
+    width: 24px;
+    height: 24px;
+}
+.statusBar {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 44px;
+    font-family: 'SF Pro Text';
+}
+.frameIcon {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: 14px;
+    width: 68px;
+    height: 14px;
+    object-fit: cover;
+}
+.action {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 20.96px;
+    width: 54px;
+    height: 18px;
+}
+.time {
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 0px;
+    letter-spacing: -0.17px;
+    font-weight: 600;
+    display: inline-block;
+    width: 54px;
+}
+
