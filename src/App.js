@@ -5,12 +5,13 @@ import Post from "./Post";
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Community />} />
-        <Route path="/post" element={<Post />} />
-      </Routes>
-    </Router>
+<Router basename="/glowmom">
+  <Routes>
+    <Route path="/" element={<Community />} />
+    <Route path="/post" element={<Post />} />
+  </Routes>
+</Router>
+
   );
 }
 
