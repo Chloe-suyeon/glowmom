@@ -1,8 +1,9 @@
 import { FunctionComponent, useCallback } from 'react';
 import styles from './Post.module.css';
 import { useNavigate } from "react-router-dom";
+import React from 'react';
 
-const Post:FunctionComponent = () => {
+const Posts:FunctionComponent = () => {
     const navigate = useNavigate();
   	const onPostTextClick = useCallback(() => {
     		// Add your code here
@@ -117,5 +118,5 @@ const Post:FunctionComponent = () => {
         			</div>);
       			};
       			
-      			export default Post;
+      			export default Posts;
       			

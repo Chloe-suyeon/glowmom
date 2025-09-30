@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Community from "./Community";
-import Post from "./Post";
+import Post from "./Posts";
 
 function App() {
   return (
